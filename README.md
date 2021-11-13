@@ -1,4 +1,4 @@
-# RH SOLID [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.md) [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.es.md)
+# Loja ( GoF ) [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.md) [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.md) [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/ivanfsilva/gatitobook/blob/master/README.es.md)
 
 
 
@@ -22,26 +22,24 @@
 
 ## 🔖&nbsp; Sobre o App
 
-Aplicativo para praticar cada um dos 5 princípios do SOLID:
+Aplicativo para praticar 6 Design Patterns do GoF:
 
-**S**ingle Responsibility Principle ( princípio da responsabilidade única )
+* Strategy
 
-**O**pen Closed Principle ( princípio aberto e fechado )
+* Chain of Responsability
 
-**L**iskov Substitution Principle ( princípio da substituição de Liskov )
+* Template Method
 
-**I**nterface Segregation Principle ( princípio da segregação de interface )
+* State
 
-**D**ependency Inversion Principle ( princípio da inversão de dependências )
+* Command
 
-
-
-
+* Observer
 
 
 
 <h4 align="center"> 
-	🚧  SOLID Java - Release 1.0 em desenvolvimento...  🚧
+	🚧  Sistema Loja utilizando alguns padrões do GoF em Java - Release 1.0 em desenvolvimento...  🚧
 </h4>
 
 
@@ -57,7 +55,7 @@ O que foi utilizado na construção do projeto:
 * [Java](https://nodejs.org/en/)
 
 
-* [SOLID](https://#)
+* [GoF](https://#)
 
 
 </h3>
@@ -68,13 +66,13 @@ O que foi utilizado na construção do projeto:
 #### Clonar o repositório
 
 ```bash
-    $ git clone https://github.com/ivanfsilva/rh.git
+    $ git clone https://github.com/ivanfsilva/loja.git
 ```
 
 ## Histórico de lançamentos
 
 * 1.0.0 - PROJETO INICIAL:
-  * Aplicação dos 5 princípios do SOLID
+  * Aplicação de 6 princípios do GoF
   
   
 ## Autor
