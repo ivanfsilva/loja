@@ -1,4 +1,7 @@
-package br.com.ivanfsilva.loja.model;
+package br.com.ivanfsilva.loja.model.orcamento.situacao;
+
+import br.com.ivanfsilva.loja.model.DomainException;
+import br.com.ivanfsilva.loja.model.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 

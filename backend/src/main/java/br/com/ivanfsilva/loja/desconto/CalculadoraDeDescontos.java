@@ -1,6 +1,6 @@
 package br.com.ivanfsilva.loja.desconto;
 
-import br.com.ivanfsilva.loja.model.Orcamento;
+import br.com.ivanfsilva.loja.model.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 

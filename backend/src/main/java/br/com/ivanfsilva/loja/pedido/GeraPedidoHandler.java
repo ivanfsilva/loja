@@ -1,9 +1,7 @@
 package br.com.ivanfsilva.loja.pedido;
 
-import br.com.ivanfsilva.loja.model.Orcamento;
+import br.com.ivanfsilva.loja.model.orcamento.Orcamento;
 import br.com.ivanfsilva.loja.pedido.acao.AcaoAposGerarPedido;
-import br.com.ivanfsilva.loja.pedido.acao.EnviarEmailPedido;
-import br.com.ivanfsilva.loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 
 import java.time.LocalDateTime;
 import java.util.List;

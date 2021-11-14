@@ -1,4 +1,7 @@
-package br.com.ivanfsilva.loja.model;
+package br.com.ivanfsilva.loja.model.orcamento;
+
+import br.com.ivanfsilva.loja.model.orcamento.situacao.EmAnalise;
+import br.com.ivanfsilva.loja.model.orcamento.situacao.SituacaoOrcamento;
 
 import java.math.BigDecimal;
 
