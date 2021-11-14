@@ -1,6 +1,8 @@
 package br.com.ivanfsilva.loja.pedido;
 
 import br.com.ivanfsilva.loja.model.Orcamento;
+import br.com.ivanfsilva.loja.pedido.acao.EnviarEmailPedido;
+import br.com.ivanfsilva.loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 
 import java.time.LocalDateTime;
 
@@ -15,7 +17,10 @@ public class GeraPedidoHandler {
         Pedido pedido = new Pedido(geraPedido.getCliente(), LocalDateTime.now(), orcamento);
 
         // utilizacao dos servicos de infra
-        System.out.println("Salvando pedido no banco de dados...");
-        System.out.println("Enviando email para cliente sobre pedido...");
+        EnviarEmailPedido email = new EnviarEmailPedido();
+        SalvarPedidoNoBancoDeDados salvar = new SalvarPedidoNoBancoDeDados();
+
+        email.executar(pedido);
+        salvar.executar(pedido);
     }
 }
