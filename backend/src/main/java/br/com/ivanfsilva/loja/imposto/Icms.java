@@ -4,9 +4,13 @@ import br.com.ivanfsilva.loja.model.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
-public class Icms implements Imposto {
+public class Icms extends Imposto {
 
-    public BigDecimal calcular( Orcamento orcamento ) {
+    public Icms(Imposto outro) {
+        super(outro);
+    }
+
+    public BigDecimal realizarCalculo(Orcamento orcamento ) {
         return orcamento.getValor().multiply(new BigDecimal("0.1"));
     }
 }
